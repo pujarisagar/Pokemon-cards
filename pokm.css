@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=dancing+script:wght@600&family=ms+madi&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 35px #000000b0;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.header a:hover{
+    color: orange;
+}
+.tit{
+    text-align: center;
+    font-size: 22px;
+}
+.header a{
+    text-decoration: none;
+    transition: ease .5;
+}
+.card{
+    display: flex;
+    background-color: rgb(243, 234, 72);
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 400px;
+    max-width: 500px;
+    margin: 0px auto 20px auto;
+    border: 2px solid #f5f5f5;
+    border-radius: 55px;
+    padding: 0px 0px 10px 0px;
+    box-shadow: 10px 10px 3px #a59e9e ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+.left p{
+    background-color: aqua;
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 0px 21px 64px 37px;
+   }
+.left img{
+    height: 268px;
+    width: 195px;
+    position: absolute;
+    top: 28px;
+    border-radius: 22px;
+    box-shadow: 10px 10px 6px grey;
+}
+.left h2{
+    position: absolute;
+    bottom: 51px;
+    left: 48px;
+    background: azure;
+    width: 156px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+    font-style: italic;
+}
+.right{
+    margin: 80px 0px 0px 53px;
+}
+.right h1{
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    width: 194px;
+    text-align: center;
+    font-family: ms madi;
+    border-radius: 15px 0px;
+}
+hr{
+    height: 380px;
+}
+#btn{
+    display: block;
+    margin: -45px auto;
+    width: 125px;
+    height: 39px;
+    font-size: 22px;
+    font-family: cursive;
+    z-index: 72;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+#btn:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
